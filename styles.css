@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+
+}
+
+body p,body h4,body h3,body li{
+    margin: 0;
+    font-family: 'Oswald';
+}
+
+.semana{
+    margin-bottom: 10px;
+}
+.semana h3{
+    text-align: center;
+}
+.semana .semana__content{
+    transition: height .3s ease;
+    padding: 0;
+    border: 1px solid #fbb028;
+    border-radius: 0 0 5px 5px;
+    background-color: #ebebeb;
+    height: 0px;
+    overflow: hidden;
+}
+
+.semana .semana__content > div{
+    border-bottom: 1px solid #000;
+}
+
+.semana.active .semana__content{
+    height: fit-content;
+    padding: 20px;
+}
+
+.semana .semana__rango{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px  5px 0 0;
+    background: #fbb028;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+
+.semana .semana__rango{
+
+}
+
+.current{
+    background-color: #fbb028;
+    padding: 10px 15px;
+}
+.current-week{
+    border: 3px dotted #fbb028;
+    border-radius: 5px 5px 0 0;
+}
