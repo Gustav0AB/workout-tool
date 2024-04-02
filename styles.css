@@ -26,7 +26,7 @@ body p,body h4,body h3,body li{
 }
 
 .semana .semana__content > div{
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #b4b4b4;
 }
 
 .semana.active .semana__content{
@@ -57,4 +57,14 @@ body p,body h4,body h3,body li{
 .current-week{
     border: 3px dotted #fbb028;
     border-radius: 5px 5px 0 0;
+}
+
+.logo{
+    max-width: 150px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.logo img{
+    width: 100%;
 }
